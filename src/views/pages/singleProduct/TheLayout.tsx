@@ -6,16 +6,13 @@ const TheLayout = () => {
   return (
     <div>
       <div>
-        {' '}
-        <Header></Header>{' '}
+        <Header></Header>
       </div>
       <div>
-        {' '}
-        <Main></Main>{' '}
+        <Main />
       </div>
       <div>
-        {' '}
-        <Footer></Footer>{' '}
+        <Footer></Footer>
       </div>
     </div>
   );

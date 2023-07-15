@@ -1,10 +1,13 @@
 import DSlider from '../../components/custom/DSlider';
+import TheLayout from '../singleProduct/TheLayout';
 
 const Home = () => {
   return (
-    <div>
-      <DSlider></DSlider>
-    </div>
+    <main>
+      <div className=" border-8 border-red-700">
+        <TheLayout></TheLayout>
+      </div>
+    </main>
   );
 };
 

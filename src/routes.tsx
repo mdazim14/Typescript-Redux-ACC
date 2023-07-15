@@ -1,14 +1,10 @@
-import { Link, createBrowserRouter } from 'react-router-dom';
-import App from './App';
+import { createBrowserRouter } from 'react-router-dom';
+import Home from './views/pages/home/Home';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
-  },
-  {
-    path: 'about',
-    element: <div>About</div>,
+    element: <Home />,
   },
 ]);
 
